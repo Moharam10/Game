@@ -130,7 +130,8 @@ function Roll_dice(){
 }
         /*-------------------------------------Chane Image ------------------- */
 function change_img(){
-dice_img.setAttribute("src",  'http://mamaslittlestar.com/wp-content/themes/business-elite/static/dice-'+dice_value+'.png' )
+// dice_img.setAttribute("src",  'http://mamaslittlestar.com/wp-content/themes/business-elite/static/dice-'+dice_value+'.png' )
+dice_img.setAttribute("src",  'dice-'+dice_value+'.png' )
 }
 
                     /* ------------ Update----------------  */
@@ -197,7 +198,8 @@ function Init_game(){
     Player_2.score.innerHTML=0;  
     Player_2.name.innerHTML="PLAYER 2";
    // Player_2.name.style.color="#555";
-    dice_img.setAttribute("src",  'http://mamaslittlestar.com/wp-content/themes/business-elite/static/dice-6.png' );
+   //  dice_img.setAttribute("src",  'http://mamaslittlestar.com/wp-content/themes/business-elite/static/dice-6.png' );
+    dice_img.setAttribute("src",  'dice-6.png' );
     dice_img.style.display="none";
 }
             /*-----------------------------Check if Game is Won-----------------------*/
